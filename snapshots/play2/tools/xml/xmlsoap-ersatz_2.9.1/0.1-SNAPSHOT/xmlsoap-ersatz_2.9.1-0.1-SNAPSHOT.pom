@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>play2.tool.xml</groupId>
+    <groupId>play2.tools.xml</groupId>
     <artifactId>xmlsoap-ersatz_2.9.1</artifactId>
     <packaging>jar</packaging>
     <description>xmlsoap-ersatz</description>
     <version>0.1-SNAPSHOT</version>
     <name>xmlsoap-ersatz</name>
     <organization>
-        <name>play2.tool.xml</name>
+        <name>play2.tools.xml</name>
     </organization>
     <dependencies>
         <dependency>
