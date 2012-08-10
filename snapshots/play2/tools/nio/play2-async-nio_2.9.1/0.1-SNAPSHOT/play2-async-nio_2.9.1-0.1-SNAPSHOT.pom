@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>play2.tools.nio</groupId>
+    <artifactId>play2-async-nio_2.9.1</artifactId>
+    <packaging>jar</packaging>
+    <description>play2-async-nio</description>
+    <version>0.1-SNAPSHOT</version>
+    <name>play2-async-nio</name>
+    <organization>
+        <name>play2.tools.nio</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>play</groupId>
+            <artifactId>play_2.9.1</artifactId>
+            <version>2.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>3.2.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>play</groupId>
+            <artifactId>play-test_2.9.1</artifactId>
+            <version>2.1-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.9.1</artifactId>
+            <version>1.7.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>mandubianmvnsnapshots</id>
+            <name>mandubian-mvn snapshots</name>
+            <url>https://github.com/mandubian/mandubian-mvn/raw/master/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>mandubianmvnreleases</id>
+            <name>mandubian-mvn releases</name>
+            <url>https://github.com/mandubian/mandubian-mvn/raw/master/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
