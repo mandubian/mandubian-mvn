@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>play-autosource</groupId>
-    <artifactId>play-autosource-core_2.10</artifactId>
+    <artifactId>core_2.10</artifactId>
     <packaging>jar</packaging>
-    <description>play-autosource-core</description>
+    <description>core</description>
     <version>0.1-SNAPSHOT</version>
-    <name>play-autosource-core</name>
+    <name>core</name>
     <organization>
         <name>play-autosource</name>
     </organization>
