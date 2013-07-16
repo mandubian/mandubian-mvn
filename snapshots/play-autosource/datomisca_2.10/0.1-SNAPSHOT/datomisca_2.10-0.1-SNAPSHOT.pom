@@ -30,6 +30,7 @@
             <groupId>com.datomic</groupId>
             <artifactId>datomic-free</artifactId>
             <version>0.8.4007</version>
+            <scope>provided</scope>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
