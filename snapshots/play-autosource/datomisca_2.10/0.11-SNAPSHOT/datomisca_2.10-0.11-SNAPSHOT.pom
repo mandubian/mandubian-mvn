@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>play-autosource</groupId>
+    <artifactId>datomisca_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>datomisca</description>
+    <version>0.11-SNAPSHOT</version>
+    <name>datomisca</name>
+    <organization>
+        <name>play-autosource</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>play-autosource</groupId>
+            <artifactId>core_2.10</artifactId>
+            <version>0.11-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+        <dependency>
+            <groupId>play.modules.datomisca</groupId>
+            <artifactId>play-datomisca_2.10</artifactId>
+            <version>0.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.datomic</groupId>
+            <artifactId>datomic-free</artifactId>
+            <version>0.8.4007</version>
+            <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-nop</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>Mandubianrepositorysnapshots</id>
+            <name>Mandubian repository snapshots</name>
+            <url>https://github.com/mandubian/mandubian-mvn/raw/master/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Mandubianrepositoryreleases</id>
+            <name>Mandubian repository releases</name>
+            <url>https://github.com/mandubian/mandubian-mvn/raw/master/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>datomiscareposnapshots</id>
+            <name>datomisca-repo snapshots</name>
+            <url>https://github.com/pellucidanalytics/datomisca-repo/raw/master/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>datomiscareporeleases</id>
+            <name>datomisca-repo releases</name>
+            <url>https://github.com/pellucidanalytics/datomisca-repo/raw/master/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
