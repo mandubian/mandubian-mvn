@@ -34,7 +34,7 @@
         <dependency>
             <groupId>com.datomic</groupId>
             <artifactId>datomic-free</artifactId>
-            <version>0.8.4218</version>
+            <version>0.9.4324</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
