@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>play-autosource</groupId>
-    <artifactId>reactivemongo_2.10</artifactId>
+    <artifactId>datomisca_2.10</artifactId>
     <packaging>jar</packaging>
-    <description>reactivemongo</description>
-    <version>2.0-SNAPSHOT</version>
-    <name>reactivemongo</name>
+    <description>datomisca</description>
+    <version>2.0</version>
+    <name>datomisca</name>
     <organization>
         <name>play-autosource</name>
     </organization>
@@ -22,14 +22,26 @@
             <version>2.0</version>
         </dependency>
         <dependency>
-            <groupId>org.reactivemongo</groupId>
-            <artifactId>play2-reactivemongo_2.10</artifactId>
-            <version>0.10.0-SNAPSHOT</version>
+            <groupId>com.pellucid</groupId>
+            <artifactId>datomisca_2.10</artifactId>
+            <version>0.6</version>
         </dependency>
         <dependency>
-            <groupId>org.reactivemongo</groupId>
-            <artifactId>reactivemongo_2.10</artifactId>
-            <version>0.10.0-SNAPSHOT</version>
+            <groupId>com.pellucid</groupId>
+            <artifactId>play-datomisca_2.10</artifactId>
+            <version>0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.datomic</groupId>
+            <artifactId>datomic-free</artifactId>
+            <version>0.8.4218</version>
+            <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-nop</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.typesafe.play</groupId>
@@ -58,9 +70,15 @@
             <layout>default</layout>
         </repository>
         <repository>
-            <id>SonatypeSnapshots</id>
-            <name>Sonatype Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots/</url>
+            <id>datomiscamvnrepo</id>
+            <name>datomisca-mvn-repo</name>
+            <url>http://dl.bintray.com/content/pellucid/maven/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>clojars</id>
+            <name>clojars</name>
+            <url>https://clojars.org/repo/</url>
             <layout>default</layout>
         </repository>
     </repositories>
