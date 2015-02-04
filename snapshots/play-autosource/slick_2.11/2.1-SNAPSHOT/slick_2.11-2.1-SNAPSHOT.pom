@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>play-autosource</groupId>
+    <artifactId>slick_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>slick</description>
+    <version>2.1-SNAPSHOT</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>slick</name>
+    <organization>
+        <name>play-autosource</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+        <dependency>
+            <groupId>play-autosource</groupId>
+            <artifactId>core_2.11</artifactId>
+            <version>2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-slick_2.11</artifactId>
+            <version>0.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play_2.11</artifactId>
+            <version>2.3.3</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.play</groupId>
+            <artifactId>play-jdbc_2.11</artifactId>
+            <version>2.3.3</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>Mandubianrepositorysnapshots</id>
+            <name>Mandubian repository snapshots</name>
+            <url>https://github.com/mandubian/mandubian-mvn/raw/master/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Mandubianrepositoryreleases</id>
+            <name>Mandubian repository releases</name>
+            <url>https://github.com/mandubian/mandubian-mvn/raw/master/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Mandubianbintrayrepositoryreleases</id>
+            <name>Mandubian bintray repository releases</name>
+            <url>http://dl.bintray.com/mandubian/maven/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Typesaferepository</id>
+            <name>Typesafe repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Typesaferepository</id>
+            <name>Typesafe repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Typesafesnapshots</id>
+            <name>Typesafe snapshots</name>
+            <url>http://repo.typesafe.com/typesafe/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Sonatypesnapshots</id>
+            <name>Sonatype snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
